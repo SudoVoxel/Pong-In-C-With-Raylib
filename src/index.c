@@ -86,7 +86,7 @@ int main(void)
         ClearBackground(BLACK);
 
         
-        DrawText(TextFormat("%i,%i", leftscore, rightscore), screenWidth / 2, 10, 20, WHITE);
+        DrawText(TextFormat("%i,%i", rightscore, leftscore), screenWidth / 2, 10, 20, WHITE);
         
         
         DrawRectangleRec(leftPaddle, WHITE);
